@@ -1,0 +1,9 @@
+digraph G {
+	bgcolor="#343434";
+	layout=circo;
+	"192.168.131.1"->"192.168.131.133"[ color=white ];
+	"192.168.131.133"->"192.168.131.1"[ color=white ];
+	"192.168.131.1" [ color=7, colorscheme=rdylgn11, fillcolor=11, fontcolor=6, fontname="Migu 1M", shape=doublecircle, style="solid,filled" ];
+	"192.168.131.133" [ color=7, colorscheme=rdylgn11, fillcolor=11, fontcolor=6, fontname="Migu 1M", shape=doublecircle, style="solid,filled" ];
+
+}
