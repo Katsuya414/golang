@@ -84,8 +84,6 @@ func main() {
 			panic(err)
 		}
 	}
-
-	// save the graph as dotfile.
 	s := g.String()
 	file, err := os.Create(`./digraph.dot`)
 	if err != nil {
